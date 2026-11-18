@@ -1,0 +1,47 @@
+:root {
+  --font-display: Georgia, 'Times New Roman', Times, serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.82rem);
+  --text-sm: clamp(0.875rem, 0.84rem + 0.18vw, 0.95rem);
+  --text-base: clamp(1rem, 0.96rem + 0.22vw, 1.125rem);
+  --text-lg: clamp(1.15rem, 1.08rem + 0.35vw, 1.35rem);
+  --text-xl: clamp(1.35rem, 1.22rem + 0.65vw, 1.75rem);
+  --text-2xl: clamp(1.75rem, 1.5rem + 1.2vw, 2.5rem);
+
+  --leading-tight: 1.22;
+  --leading-snug: 1.38;
+  --leading-body: 1.72;
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.05em;
+  --measure: 70ch;
+
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f1f5f9;
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+  --color-accent: #0f52ba;
+  --color-accent-hover: #0a3882;
+  --color-accent-soft: #e0ecff;
+  --color-border: #e2e8f0;
+
+  --container-max: 1180px;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.85rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 6px 18px rgba(15, 23, 42, 0.08);
+
+  --sticky-ad-width: 300px;
+  --sticky-ad-height: 250px;
+  --sticky-ad-z: 999;
+}
